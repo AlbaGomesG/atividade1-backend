@@ -1,6 +1,6 @@
 class MovieList {
     constructor() {
-        this.moves = [];
+        this.movies = [];
     }
     addMovie(movie) {
         this.movies.push(movie);
@@ -27,7 +27,7 @@ class MovieList {
     //ele vai pedir o id do filme para atualiar ele, colocando o id, você pode atualizar o filme. Mesmo você querendo atualizar somente uma característica, você tem que colocar as outras características porque se não da erro.
 
     deleteMovie(id) {
-        this.movies = this.movies.filter((movie) => movie.id != id);
+        this.movies = this.movies.filter(movie => movie.id != id);
     }
     //aqui ele vai deletar o filme pelo id dado pelo cliente.
 

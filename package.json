@@ -7,14 +7,26 @@
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "keywords": ["senai", "back-end", "projetos"],
+  "keywords": [
+    "senai",
+    "back-end",
+    "projetos"
+  ],
   "author": "Giovanna Alba",
   "license": "MIT",
-  "description": "",
+  "description": "atividade 1 de back-end",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "nodemon": "^3.1.9",
     "uuid": "^11.0.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlbaGomesG/atividade1-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlbaGomesG/atividade1-backend/issues"
+  },
+  "homepage": "https://github.com/AlbaGomesG/atividade1-backend#readme"
 }
